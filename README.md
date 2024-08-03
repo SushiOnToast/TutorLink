@@ -41,7 +41,7 @@ TutorLink is a platform designed to connect students with volunteers for persona
 - Python 3.8+
 - pip
 - Node.js 14+
-- npm or Yarn
+- npm 
 - PostgreSQL (for production) or SQLite (for local development)
 
 ### Backend (Django)
@@ -135,11 +135,6 @@ TutorLink is a platform designed to connect students with volunteers for persona
    npm install axios jwt-decode react-router-dom styled-components
    ```
 
-   Or, if you prefer Yarn:
-
-   ```bash
-   yarn install axios jwt-decode react-router-dom styled-components
-   ```
 
 3. **Create a `.env` File**
 
@@ -152,13 +147,7 @@ TutorLink is a platform designed to connect students with volunteers for persona
 4. **Run the Development Server**
 
    ```bash
-   npm start
-   ```
-
-   Or, if you use Yarn:
-
-   ```bash
-   yarn start
+   npm run dev
    ```
 
    Your React frontend will be running at `http://localhost:5173`.
