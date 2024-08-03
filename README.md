@@ -30,6 +30,8 @@ TutorLink is a platform designed to connect students with volunteers for persona
 - Axios
 - CSS
 - HTML
+- Python
+- JavaScript
 - VSCode
 
 ## Installation
