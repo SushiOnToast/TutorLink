@@ -1,0 +1,59 @@
+.connect-request, .ongoing-connection {
+  padding: 30px;
+  margin: 17px;
+  border-radius: 20px;
+  width: 350px;
+  color: #406170;
+  height: 250px;
+}
+
+.ongoing-connection {
+  background-color: #ccc8b2;
+
+}
+
+.connect-request {
+    background-color: #D9D5C2;
+}
+
+.sender-username {
+  font-size: 25px;
+  color: #406170;
+  margin-bottom: 15px;
+  transition-duration: 0.4s;
+}
+
+.sender-username:hover {
+  opacity: 0.5;
+}
+
+.connection-email {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.accept-request,
+.reject-request {
+  background-color: #406170;
+  border: none;
+  border-radius: 20px;
+  padding: 3px 20px;
+  color: white;
+  transition-duration: 0.4s;
+  margin-top: 3px;
+}
+
+.status {
+    margin-top: 20px;
+}
+
+.connection-with {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.since-date {
+    margin-top: 20px;
+}
+

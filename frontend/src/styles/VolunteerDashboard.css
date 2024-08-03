@@ -1,0 +1,12 @@
+.volunteer-dashboard {
+  display: flex;
+  flex-direction: column;
+  color: #406170;
+  padding: 15px;
+}
+
+.volunteer-dashboard-title {
+    font-size: 35px;
+    align-self: center;
+    margin-bottom: 30px;
+}

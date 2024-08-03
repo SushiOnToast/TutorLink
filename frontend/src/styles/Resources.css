@@ -1,0 +1,32 @@
+.resources-page {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-resource-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resource-title {
+    color: #406170;
+    font-size: 30px;
+    align-self: center;
+}
+
+.your-resources {
+    color: #406170;
+    font-size: 18px;
+    align-self: center;
+    text-decoration: underline;
+}
+
+.your-resources:hover {
+    color: #7ABBAD;
+}
+
+.filter-resources {
+    display: flex;
+    justify-content: flex-end;
+}

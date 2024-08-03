@@ -1,0 +1,28 @@
+.find-tutor-page {
+    display: flex;
+    flex-direction: column;
+    color: #406170;
+    padding: 15px;
+}
+
+.find-tutor {
+    align-self: center;
+}
+
+.filter-volunteers {
+    align-self: flex-end;
+}
+
+.ongoing-connection-list {
+    background-color: #D9D5C2;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.ongoing-connection-title, .connection-request-title {
+    font-size: 30px;
+    align-self: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,121 @@
+.profile-page {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-details,
+.profile-card {
+  background-color: #d9d5c2;
+  border-radius: 20px;
+  color: #406170;
+}
+
+.profile-details {
+  margin: 30px;
+  padding: 70px;
+  align-self: center;
+  max-width: 800px;
+  flex-grow: 1;
+}
+
+.profile-card {
+  margin: 10px;
+  width: 350px;
+  padding: 30px;
+  height: 400px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.role {
+  margin-bottom: 10px;
+}
+
+.edit-profile,
+.connect-button,
+.view-profile {
+  background-color: #f3ae9e;
+  border: none;
+  border-radius: 20px;
+  padding: 3px 15px;
+  color: white;
+  transition-duration: 0.4s;
+}
+.age {
+  margin-top: 45px;
+}
+
+.edit-profile:hover,
+.connect-button:hover,
+.view-profile:hover {
+  scale: 1.1;
+}
+
+.connect-button:disabled {
+  filter: brightness(0.8);
+}
+
+.subject-label,
+.day-label {
+  margin-right: 10px;
+  display: inline;
+}
+
+.subject,
+.day {
+  display: inline-block;
+  color: white;
+  padding: 1px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.subject {
+  background-color: #406170;
+}
+
+.day {
+  background-color: #667848;
+}
+
+.time-zone,
+.age,
+.subject-label,
+.day-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.time-zone,
+.age,
+.subject-details,
+.day-details {
+  margin-bottom: 5px;
+}
+
+.name-preview {
+    font-size: 30px;
+}
+
+.role-preview {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.username-preview {
+    color: #406170;
+    transition-duration: 0.4s;
+}
+
+.username-preview:hover {
+    opacity: 0.7;
+}
+
+.volunteers {
+  display: flex;
+  flex-wrap: wrap;
+}
