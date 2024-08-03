@@ -39,6 +39,7 @@ TutorLink is a platform designed to connect students with volunteers for persona
 ### Prerequisites
 
 - Python 3.8+
+- pip
 - Node.js 14+
 - npm or Yarn
 - PostgreSQL (for production) or SQLite (for local development)
@@ -48,8 +49,8 @@ TutorLink is a platform designed to connect students with volunteers for persona
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/SushiOnToast/tutorlink.git
-   cd tutorlink
+   git clone https://github.com/SushiOnToast/Empower-Hacks-TutorLink.git
+   cd TutorLink
    ```
 
 2. **Navigate to the Backend Directory**
@@ -61,7 +62,7 @@ TutorLink is a platform designed to connect students with volunteers for persona
 3. **Create a Virtual Environment**
 
    ```bash
-   python -m venv venv
+   python -m venv env
    ```
 
 4. **Activate the Virtual Environment**
@@ -93,21 +94,26 @@ TutorLink is a platform designed to connect students with volunteers for persona
    DEBUG=True
    ```
 
-   Replace `your_secret_key` with a strong secret key.
+   Replace `your_secret_key` with a strong secret key. You can generate one by using DJango's `django-admin` command or an online key generator:
 
-7. **Run Migrations**
+   ```bash
+   django-admin shell -c "from django.core.management.utils import get_random_secret_key;          print(get_random_secret_key())"
+
+   ```
+
+8. **Run Migrations**
 
    ```bash
    python manage.py migrate
    ```
 
-8. **Create a Superuser (optional)**
+9. **Create a Superuser (optional)**
 
    ```bash
    python manage.py createsuperuser
    ```
 
-9. **Run the Development Server**
+10. **Run the Development Server**
 
    ```bash
    python manage.py runserver
@@ -167,11 +173,12 @@ TutorLink is a platform designed to connect students with volunteers for persona
 We welcome contributions! If you'd like to contribute to the project, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
+2. Clone your fork to your local machine (`git clone https://github.com/SushiOnToast/Empower-Hacks-TutorLink.git`)
+3. Create a new branch (`git checkout -b feature/your-feature-name`).
+4. Make your changes.
+5. Commit your changes (`git commit -am 'Add your commit message here'`).
+6. Push to the branch (`git push origin feature/your-feature-name`).
+7. Create a new Pull Request.
 
 ## License
 
