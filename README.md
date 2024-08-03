@@ -22,8 +22,15 @@ TutorLink is a platform designed to connect students with volunteers for persona
 
 ## Built with
 - Django
-- Django Rest framework
+- Django REST Framework
+- Django Simple JWT
+- SQLite (for development)
 - React JS
+- React Router
+- Axios
+- CSS
+- HTML
+- VSCode
 
 ## Installation
 
