@@ -1,26 +1,37 @@
-# TutorLink
+![TutorLink Banner](./TutorLink_banner.png)
 
-TutorLink is a platform designed to connect students with volunteers for personalized tutoring and resource sharing. The project consists of a Django backend and a React frontend.
+<h1 align="center">TutorLink</h1>
+
+<p align="center">TutorLink is a platform designed to connect students with volunteers for personalized tutoring and resource sharing. The project consists of a Django backend and a React frontend.</p>
+<br/>
 
 ## Table of Contents
 
+- [Links](#links)
 - [Features](#features)
-- [Built with](#builtwith)
+- [Built with](#built-with)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
+## Links
+
+- [Devpost hackathon submission](https://devpost.com/software/tutorlink-2si1u8)
+- [Figma Prototype](https://www.figma.com/proto/4a0yHIhX4IOpDhvq1w3JOZ/Untitled?page-id=0%3A1&node-id=1-4&viewport=3321%2C874%2C0.5&t=hNtceEmqLMUNcsoH-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1%3A4)
+- [User Documentation](https://adorable-rook-1b6.notion.site/TutorLink-User-Documentation-a063f0a3b47d4f249847594bf9e472c7)
+
 ## Features
 
-- User authentication with JWT
-- User registration and login
-- Resource creation functionality
-- Connection with volunteers
-- Resource library
-- Find a Tutor
+- 🔒 User authentication with JWT
+- 📝 User registration and login
+- 📚 Resource creation functionality
+- 🤝 Connection with volunteers
+- 🗂 Resource library
+- 🔍 Find a Tutor
 
 ## Built with
+
 - Django
 - Django REST Framework
 - Django Simple JWT
@@ -41,7 +52,7 @@ TutorLink is a platform designed to connect students with volunteers for persona
 - Python 3.8+
 - pip
 - Node.js 14+
-- npm 
+- npm
 - PostgreSQL (for production) or SQLite (for local development)
 
 ### Backend (Django)
@@ -94,11 +105,10 @@ TutorLink is a platform designed to connect students with volunteers for persona
    DEBUG=True
    ```
 
-   Replace `your_secret_key` with a strong secret key. You can generate one by using DJango's `django-admin` command or an online key generator:
+   Replace `your_secret_key` with a strong secret key. You can generate one by using Django's `django-admin` command or an online key generator:
 
    ```bash
-   django-admin shell -c "from django.core.management.utils import get_random_secret_key;          print(get_random_secret_key())"
-
+   django-admin shell -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
    ```
 
 8. **Run Migrations**
@@ -135,13 +145,12 @@ TutorLink is a platform designed to connect students with volunteers for persona
    npm install axios jwt-decode react-router-dom styled-components
    ```
 
-
 3. **Create a `.env` File**
 
    Create a `.env` file in the `frontend` directory with the following content:
 
    ```env
-   VITE_API_URL = "http://127.0.0.1:8000/"
+   VITE_API_URL="http://127.0.0.1:8000/"
    ```
 
 4. **Run the Development Server**
@@ -172,5 +181,3 @@ We welcome contributions! If you'd like to contribute to the project, please fol
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
