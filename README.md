@@ -1,7 +1,5 @@
 ![TutorLink Banner](./TutorLink_banner.png)
 
-<h1 align="center">TutorLink</h1>
-
 <p align="center">TutorLink is a platform designed to connect students with volunteers for personalized tutoring and resource sharing. The project consists of a Django backend and a React frontend.</p>
 <br/>
 
